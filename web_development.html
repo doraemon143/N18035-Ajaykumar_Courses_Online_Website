@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Video Playlist Tutorial</title>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="ak.css">
+    <link rel="icon" href="images.jpg" sizes="64*64">
+</head>
+<body>
+   <div class="navigation">
+      <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ajaykumar <span>Courses</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html" target="_blank">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sign Up
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sign Up Here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="signup.html">User</a></li>
+                    <li><a class="dropdown-item" href="signup.html">Admin</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ak_login.html"><i class="fa-solid fa-circle-user"></i> <b>Login</b></a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info bg-light" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </div>
+   <div>
+      <h2>Web Development Lectures</h2>
+   </div>
+<div class="container">
+   <div class="main-video-container">
+      <video src="web.mp4" loop controls class="main-video"></video>
+      <h3 class="main-vid-title">Introduction</h3>
+   </div>
+
+   <div class="video-list-container">
+
+      <div class="list active">
+         <video src="web1.mp4" class="list-video"></video>
+         <h3 class="list-title">Hyper Text MARk Up language</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-2.mp4" class="list-video"></video>
+         <h3 class="list-title">Cascadin Style Sheets</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-3.mp4" class="list-video"></video>
+         <h3 class="list-title">Bootstrap</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-4.mp4" class="list-video"></video>
+         <h3 class="list-title">Java Script</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-5.mp4" class="list-video"></video>
+         <h3 class="list-title">Node JS</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-6.mp4" class="list-video"></video>
+         <h3 class="list-title">DataBASE Management System</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-7.mp4" class="list-video"></video>
+         <h3 class="list-title">REACT JS</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-8.mp4" class="list-video"></video>
+         <h3 class="list-title">ANIMATIONS WITH CSS</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-9.mp4" class="list-video"></video>
+         <h3 class="list-title">3D ANIMATIONS</h3>
+      </div>
+
+   </div>
+
+</div>
+
+<footer class="mt-5">
+   <div class="ft">
+       <div>
+           <p><h4>Company</h4></p>
+               <a href="#">About</a> <br>
+               <a href="#">Pricing</a> <br>
+               <a href="#">Blog</a> <br>
+               <a href="#">Careers</a> <br>
+               <a href="#">Contact</a>
+       </div>
+       <div>
+           <p><h4>Platform</h4></p>
+           <a href="#">Browse library</a> <br>
+           <a href="#">Role IQ</a> <br>
+           <a href="#">Skill IQ</a> <br>
+           <a href="#">Partner Program</a> <br>
+           <a href="#">Authors</a>
+       </div>
+       <div>
+           <p><h4>Resources</h4></p>
+           <a href="#">Library</a> <br>
+           <a href="#">Guides</a> <br>
+           <a href="#">Tutorials</a> <br>
+           <a href="#">FAQs</a> <br>
+       </div>
+       <div>
+           <p><h4>Get in touch</h4></p>
+           <p><i class="fa-solid fa-location-dot text-danger"></i>&nbsp;&nbsp;&nbsp;<span>500 Treat Ave ,Suite 200 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tirupati ,Andhrapradesh</span></p>
+           <p><i class="fa-solid fa-phone text-danger"></i>&nbsp;&nbsp;&nbsp;<span>7382952138</span></p>
+           <P><i class="fa-solid fa-envelope-circle-check text-danger"></i>&nbsp;&nbsp;<span>ajaykumaryechuri13@gmail.com</span></i></P>
+       <a href=""><i class="fa-brands fa-facebook"></i></a> <a href="#"><i class="fa-brands fa-google"></i></a>
+           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+       </div>
+   </div>
+   <div class="pb-5 mt-5" style="color:white;text-align: center;font-size: 23px;">
+       © 2022 Ajaykumar Yechuri. All Rights Reserved.
+   </div>
+ </footer>
+<!-- custom js file link  -->
+<script src="script1.js"></script>
+
+</body>
+</html>
